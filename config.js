@@ -4,7 +4,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 //═══════[Required Variables]════════\\
 global.owner = process.env.OWNER_NUMBER || '923405614773'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://ahil1:787191784abhi@ahil1.kzr1tt3.mongodb.net/?retrywrites=true&w=majority"
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://niluqueen8:M.Arslan78600@cluster0.gswawn9.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'maxdavid126@gmail.com'
 global.github = 'https://github.com/Bladeh4x/BLADE-MD'
@@ -13,7 +13,7 @@ global.gurl = 'https://instagram.com/alex_david/' // add your username
 global.sudo = process.env.SUDO || "923405614773"
 global.devs = '923405614773';
 global.website = 'https://github.com/Bladeh4x/BLADE-MD' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/3f3ae4aace2d012c11509.jpg'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/dfbe4b86af34d3f9a3a57.jpg'
 module.exports = {
   sessionName: process.env.SESSION_ID || " ",      //Put Your Session Id Here
   author:  process.env.PACK_AUTHER ||  '𝑴.𝑨𝒓𝒔𝒍𝒂𝒏',
